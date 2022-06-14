@@ -1,7 +1,5 @@
 const app = require('express')();
-const PORT = 8080;
-
-
+const port = process.env.PORT || 4000;
 
 app.get("/ping", (req, res, next) => {
     res.json([{"success" : true}]);
