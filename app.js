@@ -9,16 +9,13 @@ app.get("/ping", (req, res, next) => {
 app.get('/quote/dwight', (req, res) => {
     let quotes = require('./dwightquotes.json');
     let quote = quotes[Math.floor(Math.random() * quotes.length)];
-    res.status(200).send({
-        data:quote
-    })
+    res.status(200).send(quote)
 });
+
 app.get('/quote/micheal', (req, res) => {
     let quotes = require('./michealquotes.json');
     let quote = quotes[Math.floor(Math.random() * quotes.length)];
-    res.status(200).send({
-        data:quote
-    })
+    res.status(200).send(quote)
 });
 
 app.listen(
