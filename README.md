@@ -1,12 +1,12 @@
 # TheOfficeQuotesAPI
 
 ## Endpoint
-https://theofficequotesapi.herokuapp.com/
+https://TheOfficeQuotesAPI.null3000.repl.co/
 
 ## Get Micheal Quote
-https://theofficequotesapi.herokuapp.com/quote/micheal
+https://TheOfficeQuotesAPI.null3000.repl.co/api/v1/quote/micheal
 <p> Get random micheal quote <p>
   
 ## Get Dwight Quote
-https://theofficequotesapi.herokuapp.com/quote/dwight
+https://TheOfficeQuotesAPI.null3000.repl.co/api/v1/quote/dwight
 <p> Get random dwight quote <p>
